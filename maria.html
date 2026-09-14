@@ -3,42 +3,46 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>마리아관</title>
+    <title>마리아관 · 나의 핫스팟</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
-  <body>
-    <header>
-      <p><a href="index.html">← 핫스팟 첫 화면</a></p>
-      <h1>마리아관</h1>
-      <p>엘리베이터가 있어 편하게 오르내릴 수 있는 학교 중심 건물</p>
-    </header>
+  <body class="page-maria">
+    <div class="page">
+      <header>
+        <a href="index.html">처음으로</a>
+        <h1>마리아관</h1>
+        <p>엘리베이터가 있어 편하게 오르내릴 수 있는 학교 중심 건물</p>
+      </header>
 
-    <main>
-      <img src="images/maria.jpg" alt="학교 중심에 위치한 마리아관 건물 전경">
+      <main>
+        <section class="panel">
+          <h2>이 장소를 소개합니다</h2>
+          <img src="images/maria.jpg" alt="학교 중심에 위치한 마리아관 건물 전경">
+          <p>엘리베이터가 있어서 좋아하는 건물이다.</p>
+        </section>
 
-      <h2>이 장소가 의미 있는 이유</h2>
-      <p>엘리베이터가 있어서 좋아하는 건물이다.</p>
+        <section class="panel">
+          <h2>찾아가는 방법</h2>
+          <p>학교 중심부에 있는 건물이다. 엘리베이터가 설치되어 있어 오르내리기 편하다.</p>
+          <a class="action" href="https://place.map.kakao.com/17561931" target="_blank" rel="noopener">지도에서 위치 확인</a>
+        </section>
 
-      <h2>찾아가는 방법</h2>
-      <p>학교 중심부에 있는 건물이다. 엘리베이터가 설치되어 있어 오르내리기 편하다.</p>
-      <p>
-        <a href="https://place.map.kakao.com/17561931" target="_blank" rel="noopener">
-          마리아관 위치를 카카오맵에서 열기
-        </a>
-      </p>
+        <section class="panel">
+          <h2>여기에서 해볼 것</h2>
+          <ul>
+            <li>엘리베이터 타고 각 층 둘러보기</li>
+            <li>학교 중심에서 보이는 캠퍼스 풍경 둘러보기</li>
+          </ul>
+        </section>
+      </main>
 
-      <h2>여기에서 해볼 것</h2>
-      <ul>
-        <li>엘리베이터 타고 각 층 둘러보기</li>
-        <li>학교 중심에서 보이는 캠퍼스 풍경 둘러보기</li>
-      </ul>
-
-      <h2>출처</h2>
-      <p>사진: <a href="https://www.catholic.ac.kr/ko/about/campus-map.do" target="_blank" rel="noopener">가톨릭대학교 홈페이지 캠퍼스맵</a> / 정보: 본인 작성</p>
-    </main>
-
-    <nav aria-label="장소 페이지 이동">
-      <a href="nichols.html">← 이전 장소</a>
-      <a href="andrea.html">다음 장소 →</a>
-    </nav>
+      <footer>
+        <nav aria-label="장소 페이지 이동">
+          <a href="nichols.html">← 이전 장소</a>
+          <a href="andrea.html">다음 장소 →</a>
+        </nav>
+        <p>사진: <a href="https://www.catholic.ac.kr/ko/about/campus-map.do" target="_blank" rel="noopener">가톨릭대학교 홈페이지 캠퍼스맵</a> / 정보: 본인 작성</p>
+      </footer>
+    </div>
   </body>
 </html>
